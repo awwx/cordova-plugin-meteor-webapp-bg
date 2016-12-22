@@ -1,3 +1,9 @@
+----
+
+This is a forked version of [cordova-plugin-meteor-webapp](https://github.com/meteor/cordova-plugin-meteor-webapp]) version 1.4.1, modified to not suspend the local web server on iOS when the app enters the background (one possible solution to [Meteor fails to load when iOS app is started in the background](https://github.com/meteor/cordova-plugin-meteor-webapp/issues/24)).
+
+----
+
 # Meteor WebApp Cordova plugin
 
 Cordova apps don’t load web content over the network, but rely on locally stored HTML, CSS, JavaScript code and other assets.
